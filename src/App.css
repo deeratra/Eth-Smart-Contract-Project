@@ -1,0 +1,78 @@
+/* App.css */
+
+body {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text for better contrast */
+  font-family: "Arial", sans-serif; /* Clean font */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height */
+}
+
+.app-container {
+  background-color: #1e1e1e; /* Slightly lighter background for the card */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  width: 600px; /* Fixed width */
+  text-align: center; /* Center text */
+}
+
+h1 {
+  font-size: 2em; /* Larger heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+h2,
+h3 {
+  margin: 10px 0; /* Margin for headings */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column; /* Vertical stacking of forms */
+  gap: 15px; /* Space between forms */
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the input */
+  margin: 10px 0; /* Margin around input */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #2a2a2a; /* Dark background for inputs */
+  color: #ffffff; /* White text */
+  font-size: 1em; /* Font size */
+}
+
+button {
+  padding: 10px; /* Padding inside buttons */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #3f51b5; /* Button background */
+  color: white; /* Button text color */
+  font-size: 1em; /* Font size for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #303f9f; /* Darker on hover */
+}
+
+.user-info {
+  margin-top: 20px; /* Margin above user info */
+  padding: 10px; /* Padding around user info */
+  background-color: #2a2a2a; /* Background color for user info */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.user-address {
+  overflow-wrap: anywhere; /* Break long text anywhere if necessary */
+  word-break: break-all; /* Break long addresses into new lines if they are too long */
+  max-width: 100%; /* Ensure it doesn't exceed container width */
+}
